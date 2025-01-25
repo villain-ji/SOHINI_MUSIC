@@ -121,7 +121,7 @@ async def play_radio(client, callback_query):
         await callback_query.message.edit_text("ɪnᴠᴀʟɪᴅ sᴛᴀᴛɪᴏɴ sᴇʟᴇᴄᴛᴇᴅ!")
 
 
-__MODULE__ = "Radio"
+__MODULE__ = "•𝐑ᴀᴅɪᴏ•"
 __HELP__ = """
 /radio - ᴛᴏ ᴘʟᴀʏ ʀᴀᴅɪᴏ ɪɴ ᴛʜᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ.
 """
