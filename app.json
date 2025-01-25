@@ -1,5 +1,5 @@
 {
-  "name": "ᴄʜᴧᴍᴘᴜ ꭙ ᴍᴜsɪᴄ",
+  "name": "sᴏʜɪɴɪ ꭙ ᴍᴜsɪᴄ",
   "description": "ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ, ᴡʀɪᴛᴛᴇɴ ɪɴ ᴘʏᴛʜᴏɴ ᴡɪᴛʜ ᴘʏʀᴏɢʀᴀᴍ ᴀɴᴅ ᴘʏ-ᴛɢᴄᴀʟʟs.",
   "logo": "https://telegra.ph/file/43b46c02ace4d9b83c96f.jpg",
   "keywords": [
@@ -41,7 +41,7 @@
       },
       "OWNER_ID": {
         "description": "ᴛʜᴇ ᴜsᴇʀ ɪᴅ ᴏғ ᴜsᴇʀ ᴡʜᴏᴍ ʏᴏᴜ ᴡᴏᴜʟᴅ ʟɪᴋᴇ ᴛᴏ ᴀᴅᴅ ᴀs ᴏᴡɴᴇʀ..",
-        "value": "6399386263",
+        "value": "8095670572",
         "required": true
       },
       "STRING_SESSION": {
@@ -66,7 +66,7 @@
       },
       "UPSTREAM_REPO": {
         "description": " ᴘᴜᴛ ʏᴏᴜʀ ʀᴇᴘᴏ ʟɪɴᴋ ʜᴇʀᴇ .",
-        "value": "https://github.com/TheChampu/ChampuMusic",
+        "value": "https://github.com/ImperfectXD/SOHINI_MUSIC",
         "required": true
       },
       "UPSTREAM_BRANCH": {
