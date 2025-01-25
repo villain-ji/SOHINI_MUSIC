@@ -53,14 +53,17 @@ def music_start_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="❖ ᴀᴅᴅ ᴍᴇ ɪɴ ɢʀᴏᴜᴘ ❖",
+                text="𝐓ᴀᴘ ʜᴇʀᴇ ᴛᴏ sᴇᴇ ᴍᴀɢɪᴄ 💗",
                 url=f"https://t.me/{app.username}?startgroup=true",
             )
         ],
         [
-            InlineKeyboardButton(text="˹ᴀʙᴏᴜᴛ˼", callback_data="about"),
-            InlineKeyboardButton(text="˹sᴜᴘᴘᴏʀᴛ˼", callback_data="support"),
+            InlineKeyboardButton(text="˹𝐀ʙᴏᴜᴛ 🌛", callback_data="about"),
+            InlineKeyboardButton(text="˹𝐂ʜᴀᴛ 🎄", callback_data="support"),
         ],
-        [InlineKeyboardButton(text="۞ ғᴇᴀᴛᴜʀᴇs ۞", callback_data="feature")],
+        [
+            InlineKeyboardButton(text="𝐒ᴜʙsᴄʀɪʙᴇ ᴛᴏ sᴏʜɪɴɪ 💗", url=f"https://t.me/Want_To_Know_Me"),
+        ]
+        [InlineKeyboardButton(text="𝐀ʙɪʟɪᴛɪᴇs 👀", callback_data="feature")],
     ]
     return buttons
