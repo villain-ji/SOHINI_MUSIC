@@ -189,7 +189,7 @@ async def help_button(client, query):
         module = mod_match.group(1)
         prev_page_num = int(mod_match.group(2))
         text = (
-            f"<b><u>Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ {HELPABLE[module].__MODULE__}:</u></b>\n"
+            f"<b><u>𝐇ᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ {HELPABLE[module].__MODULE__}:</u></b>\n"
             + HELPABLE[module].__HELP__
         )
 
@@ -197,9 +197,9 @@ async def help_button(client, query):
             [
                 [
                     InlineKeyboardButton(
-                        text="↪ ʙᴀᴄᴋ", callback_data=f"help_back({prev_page_num})"
+                        text="↪ 𝐁ᴀᴄᴋ", callback_data=f"help_back({prev_page_num})"
                     ),
-                    InlineKeyboardButton(text="🔄 ᴄʟᴏsᴇ", callback_data="close"),
+                    InlineKeyboardButton(text="🔄 𝐂ʟᴏsᴇ", callback_data="close"),
                 ],
             ]
         )
@@ -472,21 +472,21 @@ async def tools_callback_cb(client, CallbackQuery, _):
 async def about_callback(client: Client, callback_query: CallbackQuery):
     buttons = [
         [
-            InlineKeyboardButton(text="[ ᴏᴡɴᴇʀ ]", user_id=config.OWNER_ID[0]),
+            InlineKeyboardButton(text="𝐒ʜᴜʙʜᴏ 💗", user_id=config.OWNER_ID[0]),
             InlineKeyboardButton(
-                text="[ sᴜᴅᴏᴇʀs ]", url=f"https://t.me/{app.username}?start=sudo"
+                text="𝐒ᴜᴅᴏᴇʀs 👀", url=f"https://t.me/{app.username}?start=sudo"
             ),
         ],
         [
-            InlineKeyboardButton(text="[ ɪɴsᴛᴀ ]", url=f"https://www.instagram.com/shivanshu_deo/"),
-            InlineKeyboardButton(text="[ ʏᴏᴜᴛᴜʙᴇ ]", url=f"https://www.youtube.com/@itsMeChampu"),
+            InlineKeyboardButton(text="𝐓ɪᴍᴇʟɪɴᴇ 💫", url=f"https://t.me/shubho_timeline"),
+            InlineKeyboardButton(text="𝐌ᴏᴠɪᴇs 🍿", url=f"https://t.me/+CwLuv7jviXhiMGVl"),
         ],
         [
-            InlineKeyboardButton(text="● ʙᴀᴄᴋ ●", callback_data="about")
+            InlineKeyboardButton(text="•𝐁ᴀᴄᴋ•", callback_data="about")
         ],  # Use a default label for the back button
     ]
     await callback_query.message.edit_text(
-        "✦ **ᴛʜɪs ʙᴏᴛ ɪs ᴍᴀᴅᴇ ʙʏ ᴀ sᴋɪʟʟᴇᴅ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴏ ᴍᴀᴋᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇᴀsʏ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴀɴᴅ ᴍᴏʀᴇ ғᴜɴ.**\n\n✦ **ᴡɪᴛʜ ᴊᴜsᴛ ᴀ ғᴇᴡ ᴄʟɪᴄᴋs, ʏᴏᴜ ᴄᴀɴ ᴄᴏɴᴛʀᴏʟ ᴇᴠᴇʀʏᴛʜɪɴɢ—ʟɪᴋᴇ sᴇᴛᴛɪɴɢ ᴜᴘ ᴏᴡɴᴇʀ sᴇᴛᴛɪɴɢs, ᴄʜᴇᴄᴋɪɴɢ sᴜᴅᴏᴇʀs, ᴀɴᴅ ᴇᴠᴇɴ ᴇxᴘʟᴏʀɪɴɢ ɪɴsᴛᴀɢʀᴀᴍ ᴀɴᴅ ʏᴏᴜᴛᴜʙᴇ.**\n\n✦ **ᴛʜᴇ ʙᴏᴛ ɪs ᴅᴇsɪɢɴᴇᴅ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ sᴍᴏᴏᴛʜʟʏ ᴀɴᴅ ᴇɴᴊᴏʏ ᴍᴜsɪᴄ ᴛᴏᴏ. ᴊᴜsᴛ ᴜsᴇ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ᴀɴᴅ sᴇᴇ ʜᴏᴡ ᴇᴀsʏ ɪᴛ ɪs!**",
+        "✦ **𝐓ʜɪs ʙᴏᴛ ɪs ᴍᴀᴅᴇ ʙʏ ᴀ sᴋɪʟʟᴇᴅ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴏ ᴍᴀᴋᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇᴀsʏ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴀɴᴅ ᴍᴏʀᴇ ғᴜɴ.**\n\n✦ **ᴡɪᴛʜ ᴊᴜsᴛ ᴀ ғᴇᴡ ᴄʟɪᴄᴋs, ʏᴏᴜ ᴄᴀɴ ᴄᴏɴᴛʀᴏʟ ᴇᴠᴇʀʏᴛʜɪɴɢ—ʟɪᴋᴇ sᴇᴛᴛɪɴɢ ᴜᴘ ᴏᴡɴᴇʀ sᴇᴛᴛɪɴɢs, ᴄʜᴇᴄᴋɪɴɢ sᴜᴅᴏᴇʀs, ᴀɴᴅ ᴇᴠᴇɴ ᴇxᴘʟᴏʀɪɴɢ ɪɴsᴛᴀɢʀᴀᴍ ᴀɴᴅ ʏᴏᴜᴛᴜʙᴇ.**\n\n✦ **ᴛʜᴇ ʙᴏᴛ ɪs ᴅᴇsɪɢɴᴇᴅ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ sᴍᴏᴏᴛʜʟʏ ᴀɴᴅ ᴇɴᴊᴏʏ ᴍᴜsɪᴄ ᴛᴏᴏ. ᴊᴜsᴛ ᴜsᴇ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ᴀɴᴅ sᴇᴇ ʜᴏᴡ ᴇᴀsʏ ɪᴛ ɪs!**",
         reply_markup=InlineKeyboardMarkup(buttons),
     )
 
@@ -496,21 +496,21 @@ async def feature_callback(client: Client, callback_query: CallbackQuery):
     keyboard = [
         [
             InlineKeyboardButton(
-                text="● ᴛᴀᴘ ʜᴇʀᴇ ᴛᴏ ᴀᴅᴅ ᴍᴇ ●",
+                text="𝐓ᴀᴘ ʜᴇʀᴇ ᴛᴏ sᴇᴇ ᴍᴀɢɪᴄ 💗",
                 url=f"https://t.me/{app.username}?startgroup=true",
             ),
         ],
         [
-            InlineKeyboardButton(text="˹ᴍᴜsɪᴄ˼", callback_data="music"),
-            InlineKeyboardButton(text="˹ᴍᴧɴᴧɢᴍᴇɴᴛ˼", callback_data="management"),
+            InlineKeyboardButton(text="˹𝐌ᴜsɪᴄ˼ 🎧", callback_data="music"),
+            InlineKeyboardButton(text="˹𝐌ᴧɴᴧɢᴍᴇɴᴛ˼ 🎄", callback_data="management"),
         ],
         [
-            InlineKeyboardButton(text="˹ᴛᴏᴏʟs˼", callback_data="tools"),
-            InlineKeyboardButton(text="˹ᴧʟʟ˼", callback_data="settings_back_helper"),
+            InlineKeyboardButton(text="˹ᴛᴏᴏʟs ♥️˼", callback_data="tools"),
+            InlineKeyboardButton(text="˹ᴧʟʟ˼ 💥", callback_data="settings_back_helper"),
         ],
-        [InlineKeyboardButton(text="✯ ʜᴏᴍᴇ ✯", callback_data="go_to_start")],
+        [InlineKeyboardButton(text="𝐇ᴏᴍᴇ 👀", callback_data="go_to_start")],
     ]
-    k = f"""**✨ ᴍᴇᴇᴛ {app.mention} !\n\n━━━━━━━━━━━━━━━\n🎶 ɪ’ᴍ ᴀ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ | ᴍᴜsɪᴄ ʙᴏᴛ\n\n🚀 ɴᴏ ʟᴀɢ, ɴᴏ ᴀᴅs, ɴᴏ ᴘʀᴏᴍᴏᴛɪᴏɴs\n🎧 𝟸𝟺/𝟽 ᴜᴘᴛɪᴍᴇ ᴡɪᴛʜ ᴛʜᴇ ʙᴇsᴛ sᴏᴜɴᴅ ǫᴜᴀʟɪᴛʏ\n💡 ᴛᴀᴘ ᴛʜᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴇxᴘʟᴏʀᴇ ᴍʏ ᴍᴏᴅᴜʟᴇs ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs!\n\n━━━━━━━━━━━━━━━\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ <a href=https://t.me/itsMeShivanshu>ᴄʜᴧᴍᴘᴜ</a></b></blockquote>**"""
+    k = f"""**✨ ᴍᴇᴇᴛ {app.mention} !\n\n•❅──────✧❅✦❅✧──────❅\n🎶 ɪ’ᴍ ᴀ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ | ᴍᴜsɪᴄ ʙᴏᴛ\n\n🚀 ɴᴏ ʟᴀɢ, ɴᴏ ᴀᴅs, ɴᴏ ᴘʀᴏᴍᴏᴛɪᴏɴs\n🎧 𝟸𝟺/𝟽 ᴜᴘᴛɪᴍᴇ ᴡɪᴛʜ ᴛʜᴇ ʙᴇsᴛ sᴏᴜɴᴅ ǫᴜᴀʟɪᴛʏ\n💡 ᴛᴀᴘ ᴛʜᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴇxᴘʟᴏʀᴇ ᴍʏ ᴍᴏᴅᴜʟᴇs ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs!\n\n━━━━━━━━━━━━━━━\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ <a href=https://t.me/itsMeShivanshu>ᴄʜᴧᴍᴘᴜ</a></b></blockquote>**"""
     await callback_query.message.edit_text(
         text=k, reply_markup=InlineKeyboardMarkup(keyboard)
     )
