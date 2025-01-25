@@ -33,7 +33,7 @@ async def resume_com(cli, message: Message, _, chat_id):
     )
 
 
-__MODULE__ = "Resume"
+__MODULE__ = "•𝐑ᴇsᴜᴍᴇ•"
 __HELP__ = """
 **Resume**
 
