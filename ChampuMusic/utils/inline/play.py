@@ -73,6 +73,11 @@ def stream_markup_timerr(_, videoid, chat_id, played, dur):
             )
         ],
         [
+                InlineKeyboardButton(
+                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/Want_To_Know_Me"
+            )
+        ],
+        [
             InlineKeyboardButton(
                 text="ᴘʟᴀʏʟɪsᴛ", callback_data=f"champu_playlist {videoid}"
             ),
@@ -149,6 +154,11 @@ def telegram_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(
                 text=f"{played} •{bar}• {dur}",
                 url=f"https://t.me/{app.username}?startgroup=true",
+            )
+        ],
+        [
+                InlineKeyboardButton(
+                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/Want_To_Know_Me"
             )
         ],
         [
@@ -422,6 +432,11 @@ def stream_markup(_, videoid, chat_id):
             ),
         ],
         [
+                InlineKeyboardButton(
+                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/Want_To_Know_Me"
+            )
+        ],
+        [
             InlineKeyboardButton(
                 text="ᴘʟᴀʏʟɪsᴛ", callback_data=f"champu_playlist {videoid}"
             ),
@@ -641,6 +656,11 @@ def stream_markup_timer2(_, chat_id, played, dur):
             InlineKeyboardButton(
                 text=f"{played} •{bar}• {dur}",
                 url=f"https://t.me/{app.username}?startgroup=true",
+            )
+        ],
+        [
+                InlineKeyboardButton(
+                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/Want_To_Know_Me"
             )
         ],
         [
