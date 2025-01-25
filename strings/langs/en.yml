@@ -157,26 +157,26 @@ cplay_6 : "ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ʙᴇ ᴛʜᴇ **ᴏᴡɴᴇʀ** ᴏꜰ �
 
 #Random Emojis While Playing
 PPLAY_1 : "🦋"
-PPLAY_2 : "😄"
-PPLAY_3 : "😏"
-PPLAY_4 : "🩷"
-PPLAY_5 : "💘"
-PPLAY_6 : "😂"
-PPLAY_7 : "😘"
-PPLAY_8 : "🥸"
-PPLAY_9 : "🙊"
-PPLAY_10 : "⚡️"
-PPLAY_11 : "🌝"
-PPLAY_12 : "❄️"
-PPLAY_13 : "🌺"
-PPLAY_14 : "🥰"
-PPLAY_15 : "😱"
-PPLAY_16 : "🥺"
-PPLAY_17 : "😈"
+PPLAY_2 : "🐾"
+PPLAY_3 : "💥"
+PPLAY_4 : "🐾"
+PPLAY_5 : "💥"
+PPLAY_6 : "🐾"
+PPLAY_7 : "💥"
+PPLAY_8 : "🐾"
+PPLAY_9 : "💥"
+PPLAY_10 : "🐾"
+PPLAY_11 : "💥"
+PPLAY_12 : "🐾"
+PPLAY_13 : "💥"
+PPLAY_14 : "🐾"
+PPLAY_15 : "💥"
+PPLAY_16 : "🐾"
+PPLAY_17 : "💥"
 
 #Play
 
-play_1 : "**🦋**"
+play_1 : "**💥**"
 
 play_2 : "🏷**ᴄʜᴀɴɴᴇʟ ᴘʟᴀʏ ᴍᴏᴅᴇ**\n🔄 ᴘʀᴏᴄᴇssɪɴɢ ǫᴜᴇʀʏ... ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ!\n\n**ʟɪɴᴋᴇᴅ ᴄʜᴀɴɴᴇʟ:** {0}"
 play_3 : "ꜰᴀɪʟᴇᴅ ᴛᴏ ᴘʀᴏᴄᴇss ǫᴜᴇʀʏ !"
@@ -275,7 +275,7 @@ queue_4 : "<blockquote>** ᴀᴅᴅᴇᴅ ᴛᴏ ǫᴜᴇᴜᴇ ᴀᴛ </blockqu
 queue_5 : "ᴏɴʟʏ ᴏɴᴇ ᴛʀᴀᴄᴋ ɪs ɪɴ ǫᴜᴇᴜᴇ, ᴀᴅᴅ sᴏᴍᴇ ᴍᴏʀᴇ ᴛʀᴀᴄᴋs ɪɴ ǫᴜᴇᴜᴇ ᴛᴏ ᴄʜᴇᴄᴋ ᴡʜᴏʟᴇ ǫᴜᴇᴜᴇ."
 
 # All Streaming Lines
-stream_1 : "<blockquote><b>❖ <a</a> sᴛʀᴇᴀᴍɪɴɢ ⏤͟͟͞͞★</b></blockquote>\n\n<b>⬤ ᴛɪᴛʟᴇ ➥</b> [{0}]({1})\n<b>⬤ ᴛɪᴍᴇ ➥</b> {2} ᴍɪɴᴜᴛᴇs\n<b>⬤ ʙʏ ➥</b> {3} \n\n<blockquote><b>❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ <a href=https://t.me/ChampuBots>ᴄʜᴧᴍᴘᴜ</a></b></blockquote>"
+stream_1 : "<blockquote><b>❖ <a</a> sᴛʀᴇᴀᴍɪɴɢ ⏤͟͟͞͞★</b></blockquote>\n\n<b>⬤ ᴛɪᴛʟᴇ ➥</b> [{0}]({1})\n<b>⬤ ᴛɪᴍᴇ ➥</b> {2} ᴍɪɴᴜᴛᴇs\n<b>⬤ ʙʏ ➥</b> {3} \n\n<blockquote><b>❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ <a href=https://t.me/Chini_tomarre>𓆩 𝐒 𝐇 𝐔 𝐁 𝐇 𝐎 𓆪</a></b></blockquote>"
 stream_2 : "<blockquote><b>❖ <a</a> sᴛʀᴇᴀᴍɪɴɢ ⏤͟͟͞͞★</b></blockquote>\n\n<b>⬤ ᴛɪᴛʟᴇ ➥</b> ʟɪᴠᴇ sᴛʀᴇᴀᴍ [ᴜʀʟ]\n**⬤ ʙʏ ➥** {0}"
 
 V_C_1 : "ғᴇᴛᴄʜɪɴɢ ᴘᴀʀᴛɪᴄɪᴘᴀɴᴛs ʟɪsᴛ...."
@@ -288,24 +288,24 @@ V_C_5 : "ᴛʜᴇʀᴇ ɪs ɴᴏ ᴀᴄᴛɪᴠᴇ ᴄᴀʟʟ ɪɴ ᴛʜɪs ᴄ�
 
 
 #General Buttons
-CLOSE_BUTTON  : " ᴄʟᴏsᴇ "
-CLOSEMENU_BUTTON  : " ᴄʟᴏsᴇ "
-BACK_BUTTON : " ʙᴀᴄᴋ "
-UNBAN_BUTTON : "ᴜɴʙᴀɴ ᴀssɪsᴛᴀɴᴛ"
+CLOSE_BUTTON  : " •𝐂ʟᴏsᴇ• "
+CLOSEMENU_BUTTON  : " •𝐂ʟᴏsᴇ• "
+BACK_BUTTON : " •𝐁ᴀᴄᴋ• "
+UNBAN_BUTTON : "•𝐔ɴʙᴀɴ 𝐀ssɪsᴛᴀɴᴛ•"
 
 #Lyrics
 L_B_1 : "🚀 ᴄʜᴇᴄᴋᴏᴜᴛ ʟʏʀɪᴄs ɴᴏᴡ"
 
 # Start
-S_B_1 : " ᴄᴏᴍᴍᴀɴᴅs "
-S_B_2 : " sᴇᴛᴛɪɴɢs "
-S_B_3 : " sᴜᴘᴘᴏʀᴛ "
-S_B_4 : " ᴄʜᴀɴɴᴇʟ "
-S_B_5 : "➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕"
+S_B_1 : " •𝐂ᴏᴍᴍᴀɴᴅs• "
+S_B_2 : " •𝐒ᴇᴛᴛɪɴɢs• "
+S_B_3 : " •𝐒ᴜᴘᴘᴏʀᴛ• "
+S_B_4 : " •𝐔ᴘᴅᴀᴛᴇs• "
+S_B_5 : "𝐓ᴀᴘ ʜᴇʀᴇ ᴛᴏ sᴇᴇ ᴍᴀɢɪᴄ 💗"
 S_B_6 : " ʀᴇᴘᴏ "
 S_B_7 : " ᴏᴡɴᴇʀ "
 S_B_8 : "🔎 Hᴏᴡ Tᴏ Usᴇ? Cᴏᴍᴍᴀɴᴅ Mᴇɴᴜ"
-S_B_9 : "✿︎ ᴀᴅᴅ ᴍᴇ ✿︎"
+S_B_9 : "•𝐀ᴅᴅ ᴍᴇ•"
 
 #PlayMode
 PM_B_1 : "Dɪʀᴇᴄᴛ Pʟᴀʏ"
