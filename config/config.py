@@ -79,7 +79,7 @@ SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/About_Sohini"
 )  # Example:- https://t.me/akaChampu
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/Tbf_chat"
+    "SUPPORT_GROUP", "https://t.me/+3LYCl_fgUBgzZTQ9"
 )  # Example:- https://t.me/TheChampuClub
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", True)
@@ -270,7 +270,7 @@ if GITHUB_REPO:
 
 
 if PING_IMG_URL:
-    if PING_IMG_URL != "https://telegra.ph/file/33591be403ae3eaae7217.jpg":
+    if PING_IMG_URL != "https://i.ibb.co/RcTvd4J/photo-2025-01-21-06-54-08-7462258510022049796.jpg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
             print(
                 "[ERROR] - Your PING_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -294,7 +294,7 @@ if GLOBAL_IMG_URL:
 
 
 if STATS_IMG_URL:
-    if STATS_IMG_URL != "https://telegra.ph/file/a9d91437d795b0ae55af8.jpg":
+    if STATS_IMG_URL != "https://envs.sh/gzH.jpg":
         if not re.match("(?:http|https)://", STATS_IMG_URL):
             print(
                 "[ERROR] - Your STATS_IMG_URL url is wrong. Please ensure that it starts with https://"
