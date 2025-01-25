@@ -478,7 +478,7 @@ async def about_callback(client: Client, callback_query: CallbackQuery):
             ),
         ],
         [
-            InlineKeyboardButton(text="𝐓ɪᴍᴇʟɪɴᴇ 💫", url=f"https://t.me/shubho_timeline"),
+            InlineKeyboardButton(text="𝐂ʜᴀᴛ 🕊️", url=f"https://t.me/tbf_chat"),
             InlineKeyboardButton(text="𝐌ᴏᴠɪᴇs 🍿", url=f"https://t.me/+CwLuv7jviXhiMGVl"),
         ],
         [
@@ -521,46 +521,46 @@ async def music_callback(client: Client, callback_query: CallbackQuery):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(text="Aᴅᴍɪɴ", callback_data="music_callback hb1"),
-                InlineKeyboardButton(text="Aᴜᴛʜ", callback_data="music_callback hb2"),
+                InlineKeyboardButton(text="•𝐀ᴅᴍɪɴ•", callback_data="music_callback hb1"),
+                InlineKeyboardButton(text="•𝐀ᴜᴛʜ•", callback_data="music_callback hb2"),
                 InlineKeyboardButton(
-                    text="Bʀᴏᴀᴅᴄᴀsᴛ", callback_data="music_callback hb3"
+                    text="•𝐁ʀᴏᴀᴅᴄᴀsᴛ•", callback_data="music_callback hb3"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="Bʟ-Cʜᴀᴛ", callback_data="music_callback hb4"
+                    text="•𝐁𝐋_𝐂ʜᴀᴛ•", callback_data="music_callback hb4"
                 ),
                 InlineKeyboardButton(
-                    text="Bʟ-Usᴇʀ", callback_data="music_callback hb5"
+                    text="•𝐁𝐋_𝐔sᴇʀ•", callback_data="music_callback hb5"
                 ),
                 InlineKeyboardButton(text="C-Pʟᴀʏ", callback_data="music_callback hb6"),
             ],
             [
-                InlineKeyboardButton(text="G-Bᴀɴ", callback_data="music_callback hb7"),
-                InlineKeyboardButton(text="Lᴏᴏᴘ", callback_data="music_callback hb8"),
+                InlineKeyboardButton(text="•𝐆_𝐁ᴀɴ•", callback_data="music_callback hb7"),
+                InlineKeyboardButton(text="•𝐋ᴏᴏᴘ•", callback_data="music_callback hb8"),
                 InlineKeyboardButton(
-                    text="Mᴀɪɴᴛᴇɴᴀɴᴄᴇ", callback_data="music_callback hb9"
+                    text="•𝐌ᴀɪɴᴛᴇɴᴀɴᴄᴇ•", callback_data="music_callback hb9"
                 ),
             ],
             [
-                InlineKeyboardButton(text="Pɪɴɢ", callback_data="music_callback hb10"),
-                InlineKeyboardButton(text="Pʟᴀʏ", callback_data="music_callback hb11"),
+                InlineKeyboardButton(text="•𝐏ɪɴɢ•", callback_data="music_callback hb10"),
+                InlineKeyboardButton(text="•𝐏ʟᴀʏ•", callback_data="music_callback hb11"),
                 InlineKeyboardButton(
-                    text="Sʜᴜғғʟᴇ", callback_data="music_callback hb12"
+                    text="•𝐒ʜᴜғғʟᴇ•", callback_data="music_callback hb12"
                 ),
             ],
             [
-                InlineKeyboardButton(text="Sᴇᴇᴋ", callback_data="music_callback hb13"),
-                InlineKeyboardButton(text="Sᴏɴɢ", callback_data="music_callback hb14"),
-                InlineKeyboardButton(text="Sᴘᴇᴇᴅ", callback_data="music_callback hb15"),
+                InlineKeyboardButton(text="•𝐒ᴇᴇᴋ•", callback_data="music_callback hb13"),
+                InlineKeyboardButton(text="•𝐒ᴏɴɢ•", callback_data="music_callback hb14"),
+                InlineKeyboardButton(text="•𝐒ᴘᴇᴇᴅ•", callback_data="music_callback hb15"),
             ],
-            [InlineKeyboardButton(text="✯ ʙᴀᴄᴋ ✯", callback_data=f"feature")],
+            [InlineKeyboardButton(text="•𝐁ᴀᴄᴋ•", callback_data=f"feature")],
         ]
     )
 
     await callback_query.message.edit(
-        f"``**Cʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ.  Iғ ʏᴏᴜ'ʀᴇ ғᴀᴄɪɴɢ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ʏᴏᴜ ᴄᴀɴ ᴀsᴋ ɪɴ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ.](t.me/TheChampuClub)**\n\n**Aʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ: /**``",
+        f"``**𝐂ʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ.  Iғ ʏᴏᴜ'ʀᴇ ғᴀᴄɪɴɢ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ʏᴏᴜ ᴄᴀɴ ᴀsᴋ ɪɴ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ.](https://t.me/TBF_Chat)**\n\n**𝐀ʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ: /**``",
         reply_markup=keyboard,
     )
 
@@ -571,59 +571,59 @@ async def management_callback(client: Client, callback_query: CallbackQuery):
         [
             [
                 InlineKeyboardButton(
-                    text="єxᴛʀᴧ", callback_data="management_callback extra"
+                    text="•𝐄xᴛʀᴧ•", callback_data="management_callback extra"
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="ʙᴧη", callback_data="management_callback hb1"
+                    text="•𝐁ᴧη•", callback_data="management_callback hb1"
                 ),
                 InlineKeyboardButton(
-                    text="ᴋɪᴄᴋs", callback_data="management_callback hb2"
+                    text="•𝐊ɪᴄᴋs•", callback_data="management_callback hb2"
                 ),
                 InlineKeyboardButton(
-                    text="ϻυᴛє", callback_data="management_callback hb3"
+                    text="•𝐌υᴛє•", callback_data="management_callback hb3"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="ᴘɪη", callback_data="management_callback hb4"
+                    text="•𝐏ɪη•", callback_data="management_callback hb4"
                 ),
                 InlineKeyboardButton(
-                    text="sᴛᴧғғ", callback_data="management_callback hb5"
+                    text="•𝐒ᴛᴧғғ•", callback_data="management_callback hb5"
                 ),
                 InlineKeyboardButton(
-                    text="sєᴛ υᴘ", callback_data="management_callback hb6"
+                    text="•𝐒єᴛ 𝐔ᴘ•", callback_data="management_callback hb6"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="zσϻʙɪє", callback_data="management_callback hb7"
+                    text="•𝐙σϻʙɪє•", callback_data="management_callback hb7"
                 ),
                 InlineKeyboardButton(
-                    text="ɢᴧϻє", callback_data="management_callback hb8"
+                    text="•𝐆ᴧϻє•", callback_data="management_callback hb8"
                 ),
                 InlineKeyboardButton(
-                    text="ɪϻᴘσsᴛєʀ", callback_data="management_callback hb9"
+                    text="•𝐈ϻᴘσsᴛєʀ•", callback_data="management_callback hb9"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="sᴧηɢ ϻᴧᴛᴧ", callback_data="management_callback hb10"
+                    text="•𝐒ᴧηɢ ϻᴧᴛᴧ•", callback_data="management_callback hb10"
                 ),
                 InlineKeyboardButton(
-                    text="ᴛʀᴧηsʟᴧᴛє", callback_data="management_callback hb11"
+                    text="•𝐓ʀᴧηsʟᴧᴛє•", callback_data="management_callback hb11"
                 ),
                 InlineKeyboardButton(
-                    text="ᴛ-ɢʀᴧᴘʜ", callback_data="management_callback hb12"
+                    text="•𝐓_𝐆ʀᴧᴘʜ•", callback_data="management_callback hb12"
                 ),
             ],
-            [InlineKeyboardButton(text="✯ ʙᴀᴄᴋ ✯", callback_data=f"feature")],
+            [InlineKeyboardButton(text="𝐁ᴀᴄᴋ ↪️", callback_data=f"feature")],
         ]
     )
 
     await callback_query.message.edit(
-        f"``**Cʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ.  Iғ ʏᴏᴜ'ʀᴇ ғᴀᴄɪɴɢ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ʏᴏᴜ ᴄᴀɴ ᴀsᴋ ɪɴ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ.](t.me/TheChampuClub)**\n\n**Aʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ: /**``",
+        f"``**𝐂ʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ.  Iғ ʏᴏᴜ'ʀᴇ ғᴀᴄɪɴɢ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ʏᴏᴜ ᴄᴀɴ ᴀsᴋ ɪɴ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ.](https://t.me/TBF_Chat)**\n\n**𝐀ʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ: /**``",
         reply_markup=keyboard,
     )
 
@@ -632,41 +632,41 @@ async def management_callback(client: Client, callback_query: CallbackQuery):
 async def tools_callback(client: Client, callback_query: CallbackQuery):
     keyboard = InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton(text="ᴄʜᴧᴛɢᴘᴛ", callback_data="tools_callback ai")],
+            [InlineKeyboardButton(text="•𝐂ʜᴧᴛɢᴘᴛ•", callback_data="tools_callback ai")],
             [
-                InlineKeyboardButton(text="ɢσσɢʟє", callback_data="tools_callback hb1"),
+                InlineKeyboardButton(text="•𝐆σσɢʟє•", callback_data="tools_callback hb1"),
                 InlineKeyboardButton(
-                    text="ᴛᴛs-ᴠσɪᴄє", callback_data="tools_callback hb2"
+                    text="•𝐓ᴛs_ᴠσɪᴄє•", callback_data="tools_callback hb2"
                 ),
-                InlineKeyboardButton(text="ɪηꜰσ", callback_data="tools_callback hb3"),
+                InlineKeyboardButton(text="•𝐈ηꜰσ•", callback_data="tools_callback hb3"),
             ],
             [
-                InlineKeyboardButton(text="ғσηᴛ", callback_data="tools_callback hb4"),
-                InlineKeyboardButton(text="ϻᴧᴛʜ", callback_data="tools_callback hb5"),
-                InlineKeyboardButton(text="ᴛᴧɢᴧʟʟ", callback_data="tools_callback hb6"),
+                InlineKeyboardButton(text="•𝐅σηᴛ•", callback_data="tools_callback hb4"),
+                InlineKeyboardButton(text="•𝐌ᴧᴛʜ•", callback_data="tools_callback hb5"),
+                InlineKeyboardButton(text="•𝐓ᴧɢᴧʟʟ•", callback_data="tools_callback hb6"),
             ],
             [
-                InlineKeyboardButton(text="ɪϻᴧɢє", callback_data="tools_callback hb7"),
-                InlineKeyboardButton(text="ʜᴧsᴛᴧɢ", callback_data="tools_callback hb8"),
+                InlineKeyboardButton(text="•𝐈ϻᴧɢє•", callback_data="tools_callback hb7"),
+                InlineKeyboardButton(text="•𝐇ᴧsᴛᴧɢ•", callback_data="tools_callback hb8"),
                 InlineKeyboardButton(
-                    text="sᴛɪᴄᴋєʀs", callback_data="tools_callback hb9"
+                    text="•𝐒ᴛɪᴄᴋєʀs•", callback_data="tools_callback hb9"
                 ),
             ],
             [
                 InlineKeyboardButton(text="ғυη", callback_data="tools_callback hb10"),
                 InlineKeyboardButton(
-                    text="ǫυσᴛʟʏ", callback_data="tools_callback hb11"
+                    text="•𝐐υσᴛʟʏ•", callback_data="tools_callback hb11"
                 ),
                 InlineKeyboardButton(
-                    text="ᴛʀ - ᴅʜ", callback_data="tools_callback hb12"
+                    text="•𝐓ʀ_𝐃ʜ•", callback_data="tools_callback hb12"
                 ),
             ],
-            [InlineKeyboardButton(text="✯ ʙᴀᴄᴋ ✯", callback_data=f"feature")],
+            [InlineKeyboardButton(text="•𝐁ᴀᴄᴋ•", callback_data=f"feature")],
         ]
     )
 
     await callback_query.message.edit(
-        f"``**Cʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ.  Iғ ʏᴏᴜ'ʀᴇ ғᴀᴄɪɴɢ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ʏᴏᴜ ᴄᴀɴ ᴀsᴋ ɪɴ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ.](t.me/TheChampuClub)**\n\n**Aʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ: /**``",
+        f"``**𝐂ʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ.  Iғ ʏᴏᴜ'ʀᴇ ғᴀᴄɪɴɢ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ʏᴏᴜ ᴄᴀɴ ᴀsᴋ ɪɴ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ.](https://t.me/TBF_Chat)**\n\n**Aʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ: /**``",
         reply_markup=keyboard,
     )
 
@@ -676,21 +676,21 @@ async def feature_callback(client: Client, callback_query: CallbackQuery):
     keyboard = [
         [
             InlineKeyboardButton(
-                text="● ᴛᴀᴘ ʜᴇʀᴇ ᴛᴏ ᴀᴅᴅ ᴍᴇ ●",
+                text="𝐓ᴀᴘ ʜᴇʀᴇ ᴛᴏ ᴀᴅᴅ ᴍᴇ 💗",
                 url=f"https://t.me/{app.username}?startgroup=true",
             ),
         ],
         [
-            InlineKeyboardButton(text="˹ᴍᴜsɪᴄ˼", callback_data="music"),
-            InlineKeyboardButton(text="˹ᴍᴧɴᴧɢᴍᴇɴᴛ˼", callback_data="management"),
+            InlineKeyboardButton(text="˹𝐌ᴜsɪᴄ 🎧", callback_data="music"),
+            InlineKeyboardButton(text="˹𝐌ᴧɴᴧɢᴍᴇɴᴛ˼ 🎄", callback_data="management"),
         ],
         [
-            InlineKeyboardButton(text="˹ᴛᴏᴏʟs˼", callback_data="tools"),
-            InlineKeyboardButton(text="˹ᴧʟʟ˼", callback_data="settings_back_helper"),
+            InlineKeyboardButton(text="˹𝐓ᴏᴏʟs˼ 🔧", callback_data="tools"),
+            InlineKeyboardButton(text="˹𝐀ʟʟ˼ 👀", callback_data="settings_back_helper"),
         ],
-        [InlineKeyboardButton(text="✯ ʜᴏᴍᴇ ✯", callback_data="go_to_start")],
+        [InlineKeyboardButton(text="𝐇ᴏᴍᴇ 🔄", callback_data="go_to_start")],
     ]
-    k = f"""**✨ ᴍᴇᴇᴛ {app.mention} !\n\n━━━━━━━━━━━━━━━\n🎶 ɪ’ᴍ ᴀ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ | ᴍᴜsɪᴄ ʙᴏᴛ\n\n🚀 ɴᴏ ʟᴀɢ, ɴᴏ ᴀᴅs, ɴᴏ ᴘʀᴏᴍᴏᴛɪᴏɴs\n🎧 𝟸𝟺/𝟽 ᴜᴘᴛɪᴍᴇ ᴡɪᴛʜ ᴛʜᴇ ʙᴇsᴛ sᴏᴜɴᴅ ǫᴜᴀʟɪᴛʏ\n💡 ᴛᴀᴘ ᴛʜᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴇxᴘʟᴏʀᴇ ᴍʏ ᴍᴏᴅᴜʟᴇs ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs!\n\n━━━━━━━━━━━━━━━\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ <a href=https://t.me/itsMeShivanshu>ᴄʜᴧᴍᴘᴜ</a></b></blockquote>**"""
+    k = f"""**✨ ᴍᴇᴇᴛ {app.mention} !\n\n❅──────✧❅✦❅✧──────❅\n🎶 ɪ’ᴍ ᴀ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ | ᴍᴜsɪᴄ ʙᴏᴛ\n\n🚀 ɴᴏ ʟᴀɢ, ɴᴏ ᴀᴅs, ɴᴏ ᴘʀᴏᴍᴏᴛɪᴏɴs\n🎧 𝟸𝟺/𝟽 ᴜᴘᴛɪᴍᴇ ᴡɪᴛʜ ᴛʜᴇ ʙᴇsᴛ sᴏᴜɴᴅ ǫᴜᴀʟɪᴛʏ\n💡 ᴛᴀᴘ ᴛʜᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴇxᴘʟᴏʀᴇ ᴍʏ ᴍᴏᴅᴜʟᴇs ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs!\n\n━━━━━━━━━━━━━━━\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ <a href=https://t.me/itsMeShivanshu>ᴄʜᴧᴍᴘᴜ</a></b></blockquote>**"""
     await callback_query.message.edit_text(
         text=k,
         reply_markup=InlineKeyboardMarkup(keyboard),
@@ -743,17 +743,17 @@ def back_to_management(_):
 async def about_callback(client: Client, callback_query: CallbackQuery):
     buttons = [
         [
-            InlineKeyboardButton(text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", callback_data="developer"),
-            InlineKeyboardButton(text="ғᴇᴀᴛᴜʀᴇ", callback_data="feature"),
+            InlineKeyboardButton(text="𝐒ʜᴜʙʜᴏ 💗", callback_data="developer"),
+            InlineKeyboardButton(text="𝐅ᴇᴀᴛᴜʀᴇ ✨", callback_data="feature"),
         ],
         [
-            InlineKeyboardButton(text="ʙᴀsɪᴄ ɢᴜɪᴅᴇ", callback_data="basic_guide"),
-            InlineKeyboardButton(text="ᴅᴏɴᴀᴛᴇ", callback_data="donate"),
+            InlineKeyboardButton(text="•𝐁ᴀsɪᴄ 𝐆ᴜɪᴅᴇ•", callback_data="basic_guide"),
+            InlineKeyboardButton(text="•𝐃ᴏɴᴀᴛᴇ•", callback_data="donate"),
         ],
-        [InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="go_to_start")],
+        [InlineKeyboardButton(text="•𝐁ᴀᴄᴋ•", callback_data="go_to_start")],
     ]
     await callback_query.message.edit_text(
-        f"**ʜɪ ɪ ᴀᴍ {app.mention} **\n\n**ᴀ ᴘᴏᴡᴇʀғᴜʟ ᴀɴᴅ ᴀᴡᴇsᴏᴍᴇ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴀɴᴅ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ᴛʜᴀᴛ ɢɪᴠᴇs ʏᴏᴜ sᴘᴀᴍ-ғʀᴇᴇ ᴀɴᴅ ғᴜɴ ᴇɴᴠɪʀᴏɴᴍᴇɴᴛ ғᴏʀ ʏᴏᴜʀ ɢʀᴏᴜᴘs :)**\n\n**● ɪ ᴄᴀɴ ʀᴇsᴛʀɪᴄᴛ ᴜsᴇʀs.**\n**● ɪ ᴄᴀɴ ɢʀᴇᴇᴛ ᴜsᴇʀs ᴡɪᴛʜ ᴄᴜsᴛᴏᴍɪᴢᴀʙʟᴇ ᴡᴇʟᴄᴏᴍᴇ ᴍᴇssᴀɢᴇs ᴀɴᴅ ᴇᴠᴇɴ sᴇᴛ ᴀ ɢʀᴏᴜᴘ's ʀᴜʟᴇs.**\n**● ɪ ʜᴀᴠᴇ ᴀ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ sʏsᴛᴇᴍ.**\n**● ɪ ʜᴀᴠᴇ ᴀʟᴍᴏsᴛ ᴀʟʟ ᴀᴡᴀɪᴛᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢɪɴɢ ғᴇᴀᴛᴜʀᴇs ʟɪᴋᴇ ʙᴀɴ, ᴍᴜᴛᴇ, ᴡᴇʟᴄᴏᴍᴇ, ᴋɪᴄᴋ, ғᴇᴅᴇʀᴀᴛɪᴏɴ, ᴀɴᴅ ᴍᴀɴʏ ᴍᴏʀᴇ.**\n**● ɪ ʜᴀᴠᴇ ᴀ ɴᴏᴛᴇ-ᴋᴇᴇᴘɪɴɢ sʏsᴛᴇᴍ, ʙʟᴀᴄᴋʟɪsᴛs, ᴀɴᴅ ᴇᴠᴇɴ ᴘʀᴇᴅᴇᴛᴇʀᴍɪɴᴇᴅ ʀᴇᴘʟɪᴇs ᴏɴ ᴄᴇʀᴛᴀɪɴ ᴋᴇʏᴡᴏʀᴅs.**\n**● ɪ ᴄʜᴇᴄᴋ ғᴏʀ ᴀᴅᴍɪɴs' ᴘᴇʀᴍɪssɪᴏɴs ʙᴇғᴏʀᴇ ᴇxᴇᴄᴜᴛɪɴɢ ᴀɴʏ ᴄᴏᴍᴍᴀɴᴅ ᴀɴᴅ ᴍᴏʀᴇ sᴛᴜғғ.**\n\n**➻ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ʙᴏᴛ .**",
+        f"**𝐌ᴇᴏᴡ ɪ ᴀᴍ {app.mention} **\n\n**ᴀ ᴘᴏᴡᴇʀғᴜʟ ᴀɴᴅ ᴀᴡᴇsᴏᴍᴇ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴀɴᴅ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ᴛʜᴀᴛ ɢɪᴠᴇs ʏᴏᴜ sᴘᴀᴍ-ғʀᴇᴇ ᴀɴᴅ ғᴜɴ ᴇɴᴠɪʀᴏɴᴍᴇɴᴛ ғᴏʀ ʏᴏᴜʀ ɢʀᴏᴜᴘs :)**\n\n**● ɪ ᴄᴀɴ ʀᴇsᴛʀɪᴄᴛ ᴜsᴇʀs.**\n**● ɪ ᴄᴀɴ ɢʀᴇᴇᴛ ᴜsᴇʀs ᴡɪᴛʜ ᴄᴜsᴛᴏᴍɪᴢᴀʙʟᴇ ᴡᴇʟᴄᴏᴍᴇ ᴍᴇssᴀɢᴇs ᴀɴᴅ ᴇᴠᴇɴ sᴇᴛ ᴀ ɢʀᴏᴜᴘ's ʀᴜʟᴇs.**\n**● ɪ ʜᴀᴠᴇ ᴀ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ sʏsᴛᴇᴍ.**\n**● ɪ ʜᴀᴠᴇ ᴀʟᴍᴏsᴛ ᴀʟʟ ᴀᴡᴀɪᴛᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢɪɴɢ ғᴇᴀᴛᴜʀᴇs ʟɪᴋᴇ ʙᴀɴ, ᴍᴜᴛᴇ, ᴡᴇʟᴄᴏᴍᴇ, ᴋɪᴄᴋ, ғᴇᴅᴇʀᴀᴛɪᴏɴ, ᴀɴᴅ ᴍᴀɴʏ ᴍᴏʀᴇ.**\n**● ɪ ʜᴀᴠᴇ ᴀ ɴᴏᴛᴇ-ᴋᴇᴇᴘɪɴɢ sʏsᴛᴇᴍ, ʙʟᴀᴄᴋʟɪsᴛs, ᴀɴᴅ ᴇᴠᴇɴ ᴘʀᴇᴅᴇᴛᴇʀᴍɪɴᴇᴅ ʀᴇᴘʟɪᴇs ᴏɴ ᴄᴇʀᴛᴀɪɴ ᴋᴇʏᴡᴏʀᴅs.**\n**● ɪ ᴄʜᴇᴄᴋ ғᴏʀ ᴀᴅᴍɪɴs' ᴘᴇʀᴍɪssɪᴏɴs ʙᴇғᴏʀᴇ ᴇxᴇᴄᴜᴛɪɴɢ ᴀɴʏ ᴄᴏᴍᴍᴀɴᴅ ᴀɴᴅ ᴍᴏʀᴇ sᴛᴜғғ.**\n\n**➻ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ʙᴏᴛ .**",
         reply_markup=InlineKeyboardMarkup(buttons),
     )
 
@@ -765,19 +765,19 @@ async def back_button_callback(client: Client, callback_query: CallbackQuery):
         [
             InlineKeyboardButton(text="ᴏᴡɴᴇʀ", user_id=config.OWNER_ID[0]),
             InlineKeyboardButton(
-                text="ɢɪᴛʜᴜʙ",
-                url="https://github.com/TheChampu",
+                text="𝐀ʙᴏᴜᴛ 👀",
+                url="https://t.me/about_shubho",
             ),
         ],
         [
-            InlineKeyboardButton(text="ɢʀᴏᴜᴘ", url=f"{config.SUPPORT_GROUP}"),
-            InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=f"{config.SUPPORT_CHANNEL}"),
+            InlineKeyboardButton(text="𝐂ʜᴀᴛ 💗", url=f"{config.SUPPORT_GROUP}"),
+            InlineKeyboardButton(text="𝐒ᴏʜɪɴɪ ♥️", url=f"{config.SUPPORT_CHANNEL}"),
         ],
-        [InlineKeyboardButton(text="✯ ʜᴏᴍᴇ ✯", callback_data="go_to_start")],
+        [InlineKeyboardButton(text="𝐇ᴏᴍᴇ 🔄", callback_data="go_to_start")],
     ]
 
     await callback_query.message.edit_text(
-        "**๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍᴇ**\n\n**ɪғ ʏᴏᴜ ғɪɴᴅ ᴀɴʏ ᴇʀʀᴏʀ ᴏʀ ʙᴜɢ ᴏɴ ʙᴏᴛ ᴏʀ ᴡᴀɴᴛ ᴛᴏ ɢɪᴠᴇ ᴀɴʏ ғᴇᴇᴅʙᴀᴄᴋ ᴀʙᴏᴜᴛ ᴛʜᴇ ʙᴏᴛ ᴛʜᴇɴ ʏᴏᴜ ᴀʀᴇ ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ  (✿◠‿◠)**",
+        "**๏ 𝐂ʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍᴇ**\n\n**ɪғ ʏᴏᴜ ғɪɴᴅ ᴀɴʏ ᴇʀʀᴏʀ ᴏʀ ʙᴜɢ ᴏɴ ʙᴏᴛ ᴏʀ ᴡᴀɴᴛ ᴛᴏ ɢɪᴠᴇ ᴀɴʏ ғᴇᴇᴅʙᴀᴄᴋ ᴀʙᴏᴜᴛ ᴛʜᴇ ʙᴏᴛ ᴛʜᴇɴ ʏᴏᴜ ᴀʀᴇ ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ  (✿◠‿◠)**",
         reply_markup=InlineKeyboardMarkup(keyboard),
     )
 
@@ -786,7 +786,7 @@ async def back_button_callback(client: Client, callback_query: CallbackQuery):
 async def settings_back_callback(client: Client, callback_query: CallbackQuery):
     close = [[InlineKeyboardButton(text="✯ ᴄʟᴏsᴇ ✯", callback_data="close")]]
     await callback_query.message.reply_photo(
-        photo="https://envs.sh/TS-.jpg",
+        photo="",
         caption=f"**sᴜᴘᴘᴏʀᴛ ᴍʏ ᴄᴏᴅɪɴɢ ᴊᴏᴜʀɴᴇʏ ʙʏ ᴅᴏɴᴀᴛɪɴɢ ᴅɪʀᴇᴄᴛʟʏ ᴛᴏ ʜᴇʟᴘ ᴇɴʜᴀɴᴄᴇ ᴍʏ ʙᴏᴛ's ғᴇᴀᴛᴜʀᴇs ᴀɴᴅ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ.**\n\n**ʏᴏᴜʀ ᴄᴏɴᴛʀɪʙᴜᴛɪᴏɴ ᴡɪʟʟ ᴅɪʀᴇᴄᴛʟʏ ғᴜɴᴅ ᴛʜᴇ ᴄʀᴇᴀᴛɪᴏɴ ᴏғ ɪɴɴᴏᴠᴀᴛɪᴠᴇ, ᴜsᴇʀ-ғʀɪᴇɴᴅʟʏ ᴛᴏᴏʟs ᴀɴᴅ ᴇxᴄɪᴛɪɴɢ ʙᴏᴛ ᴄᴀᴘᴀʙɪʟɪᴛɪᴇs.**\n\n**sɪᴍᴘʟʏ sᴄᴀɴ ᴛʜᴇ ᴄᴏᴅᴇ ᴀɴᴅ ᴍᴀᴋᴇ ᴀ ᴘᴀʏᴍᴇɴᴛ—ɴᴏ ʜᴀssʟᴇ, ᴊᴜsᴛ ᴀ ǫᴜɪᴄᴋ ᴡᴀʏ ᴛᴏ sᴜᴘᴘᴏʀᴛ ᴀɴᴅ ʜᴇʟᴘ ʙʀɪɴɢ ɴᴇᴡ ғᴇᴀᴛᴜʀᴇs ᴛᴏ ʟɪғᴇ.**\n\n**ᴇᴠᴇʀʏ ᴅᴏɴᴀᴛɪᴏɴ, ʙɪɢ ᴏʀ sᴍᴀʟʟ, ɢᴏᴇs ᴀ ʟᴏɴɢ ᴡᴀʏ ɪɴ ᴘᴜsʜɪɴɢ ᴛʜɪs ᴘʀᴏᴊᴇᴄᴛ ғᴏʀᴡᴀʀᴅ. ᴛʜᴀɴᴋ ʏᴏᴜ ғᴏʀ ʙᴇɪɴɢ ᴀ ᴘᴀʀᴛ ᴏғ ᴛʜɪs ᴇxᴄɪᴛɪɴɢ ᴊᴏᴜʀɴᴇʏ!**",
         reply_markup=InlineKeyboardMarkup(close),
     )
